@@ -3,13 +3,15 @@
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
-    "start": "solid-start start"
+    "start": "solid-start start",
+    "format": "prettier --write src"
   },
   "type": "module",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "esbuild": "^0.14.54",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.8",
     "solid-start-node": "^0.2.19",
     "typescript": "^4.9.4",
     "vite": "^4.1.4"
